@@ -1,0 +1,31 @@
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .wrapper-input {
+    margin: 15px auto;
+  }
+  .input {
+    font-size: 24px;
+    color: black;
+  }
+  .control {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .space {
+    margin: 15px auto;
+  }
+  
+  .separator {
+    margin: 15px auto;
+  }
+  .wrapper {
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+  }
