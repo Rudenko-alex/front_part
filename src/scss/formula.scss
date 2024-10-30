@@ -1,31 +1,58 @@
 
-.all {
+.formula-all {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-  .wrapper-input {
+  .formula-wrapper-input {
     margin: 15px auto;
   }
-  .input {
+  .formula-input {
+    background-color: transparent;
+    border: 1px solid #555;
     font-size: 24px;
-    color: black;
+    // color: black;
   }
-  .control {
+  .formula-control {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
   
-  .space {
+  .formula-space {
     margin: 15px auto;
   }
   
-  .separator {
+  .formula-separator {
     margin: 15px auto;
   }
-  .wrapper {
+  .formula-wrapper {
     margin: 15px auto;
     display: flex;
     flex-direction: column;
+  }
+
+  .formula-wrapper-select, .formula-separator-select {
+    background-color: transparent; /* Цвет фона селекта */
+    // color: #fff; /* Цвет текста в селекте */
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Стилизация фокуса */
+  .formula-wrapper-select:focus, .formula-separator-select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #888;
+  }
+  
+  /* Стили для фона выпадающего меню */
+  .formula-wrapper-select option , .formula-separator-select option{
+    background-color: #333; /* Цвет фона выпадающих опций */
+    // color: #fff; /* Цвет текста выпадающих опций */
+  }
+  .formula-btn{
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #555;
   }

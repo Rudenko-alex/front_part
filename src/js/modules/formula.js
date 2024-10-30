@@ -1,8 +1,9 @@
-let input = document.querySelector('.input');
-let transform = document.querySelector('.transform');
-let reset = document.querySelector('.reset');
-let separatorSelect = document.querySelector('.separator-select');
-let wrapperSelect = document.querySelector('.wrapper-select');
+export default function Formula() {
+let input = document.querySelector('.formula-input');
+let transform = document.querySelector('.formula-transform');
+let reset = document.querySelector('.formula-reset');
+let separatorSelect = document.querySelector('.formula-separator-select');
+let wrapperSelect = document.querySelector('.formula-wrapper-select');
 let space = document.getElementById('space');
 
 transform.addEventListener('click', () => {
@@ -26,5 +27,7 @@ transform.addEventListener('click', () => {
 });
 
 reset.addEventListener('click', () => {
-  document.location.reload();
+  input.value = '';
+  // document.location.reload();
 });
+}
