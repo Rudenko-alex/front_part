@@ -1,0 +1,53 @@
+
+[ "Убрать из названия _copy. Нужен только для структуры json. а так же удалить этот сообщение",
+  {
+    "pageName": "Главная страница",
+    "id":"home-page",
+    "links": [
+      { "name": "udemy", "url": "https://www.udemy.com/" },
+      { "name": "youtube", "url": "https://www.youtube.com/" },
+      { "name": "megogo", "url": "https://megogo.net/ua/" },
+      {
+        "name": "radiorelax",
+        "url": "https://play.tavr.media/radiorelax/ukr/"
+      },
+      { "name": "football", "url": "https://football.ua/" },
+      { "name": "І.UA", "url": "https://www.i.ua/" }
+    ]
+  },
+  {
+      "pageName": "Формула",
+      "id":"formula",
+      "links": [
+        
+      ]
+    },
+  {
+    "pageName": "Работа",
+    "id":"work-page",
+    "links": [
+      {
+        "name": "Trello",
+        "url": "https://trello.com/"
+      },
+      { "name": "tomato-timer", "url": "https://tomato-timer.com/" }
+    ]
+  },
+  {
+    "pageName": "Front",
+    "id":"front-page",
+    "links": [
+      {
+        "name": "Алгоритмы поиска на JavaScript",
+        "url": "http://mathhelpplanet.com/static.php?p=javascript-algoritmy-poiska"
+      }
+    ]
+  },
+  {
+      "pageName": "Общее",
+      "id":"other-page",
+      "links": [
+        
+      ]
+    }
+]
